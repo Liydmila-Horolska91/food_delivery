@@ -1,0 +1,226 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #2c2c2c;
+}
+
+/* Стилі для обнулення відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Клас для обнулення базових властивостей списків (ul) */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Клас для обнулення базових властивостей у посилань */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+
+address {
+    font-style: normal;
+}
+
+.container {
+    width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto; 
+
+}
+
+.header {
+
+}
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    margin-right: auto;
+}
+
+.navigation {
+    margin-right: 30px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 28px;
+}
+
+.nav-link {
+    font-style: 14px;
+    display: block;
+    padding: 28px 0;
+}
+.nav-link:hover,
+.nav-link:focus{
+    font-weight: 700;
+       text-decoration: underline;
+    color: #bbf330;
+}
+
+.header-btn {
+    border-radius: 30px;
+    background: #bbf330;
+     font-weight: 500;
+            font-size: 13px;
+            line-height: 1.5;
+            cursor: pointer;
+            border: none;
+}
+
+.hero {
+    padding-top: 14px;
+    padding-bottom: 69px;
+}
+
+.hero-cont{
+    display: flex;
+    gap: 143px;
+    align-items: center;
+}
+.hero-wrapper {
+    min-width: 511px;
+}
+
+.title {
+    font-size: 48px;
+        line-height: 1.2;
+        margin-bottom: 28px;
+}
+
+.hero-text {
+line-height: 1.5;
+margin-bottom: 40px;
+}
+
+.hero-btn {
+font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 30px;
+        padding: 6px 17px;
+        min-width: 98px;
+        height: 32px;
+        bottom: none;
+        cursor: pointer;
+        background: #bbf330;
+}
+
+.offering-conteiner{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+.offering-text-wrap{
+   max-width: 573px; 
+
+}
+
+.offering {
+    background-color: #ffe550;
+    padding-top: 113px;
+    padding-bottom: 124px;
+}
+
+.offering-title {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.offering-text {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.offering-list {
+    display: flex;
+    gap: 67px;
+    margin-bottom: 32px;
+}
+
+.offering-item {
+    width: calc((100% - 67px)/2);
+}
+
+.offering-subtitle {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+
+.offering-desc {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.offering-btn {
+    font-weight: 500;
+        font-size: 13px;
+        line-height: 1.5;
+        border: 2px solid #7eb101;
+        border-radius: 30px;
+        padding: 10px 20px;
+        min-width: 106px;
+        height: 40px;
+        background: #fff;
+        cursor: pointer;
+}
+
+.favorites {
+    padding-top: 120px;
+    padding-bottom: 104px;
+}
+
+.favorites-title {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.favorites-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.favorites-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.favorites-item {
+    width: 394px;
+        height: 397px;
+        border: 16px solid #ffe550;
+            border-radius: 197px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+
