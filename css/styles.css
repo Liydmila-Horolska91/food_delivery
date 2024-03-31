@@ -204,7 +204,7 @@ font-weight: 500;
 
 .favorites-text {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .favorites-list {
@@ -221,6 +221,56 @@ font-weight: 500;
             display: flex;
             justify-content: center;
             align-items: center;
+}
+
+.review {
+    padding-top: 104px;
+    padding-bottom: 173px;
+    background: #ffe550;
+}
+
+.review-title {
+    font-size: 42px;
+    margin-bottom: 20px;
+
+}
+
+.review-text {
+    font-size: 16px;
+    margin-bottom: 32.65px;
+}
+
+.review-text-wrap{
+    min-width: 501px;
+    
+}
+
+.review-list {
+        display: flex;
+        gap: 139px;
+}
+
+.review-item {
+    width: calc((100% - 139px)/2);
+background-color: #fff;
+border-radius: 0 30px 30px 30px;
+}
+
+.review-person {
+    font-size: 18px;
+    margin-bottom: 40.81px;
+}
+
+.surname {
+    font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 2px;
+}
+
+.some-dude {
+    font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 19.33px;
 }
 
 
