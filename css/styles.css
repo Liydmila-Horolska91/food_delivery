@@ -48,7 +48,8 @@ address {
 }
 
 .header {
-
+    padding-top: 72px;
+        padding-bottom: 55px;
 }
 .header-container{
     display: flex;
@@ -240,11 +241,6 @@ font-weight: 500;
     margin-bottom: 32.65px;
 }
 
-.review-text-wrap{
-    min-width: 501px;
-    
-}
-
 .review-list {
         display: flex;
         gap: 139px;
@@ -273,4 +269,68 @@ border-radius: 0 30px 30px 30px;
         margin-bottom: 19.33px;
 }
 
+.subscription {
+        padding-top: 173px;
+        padding-bottom: 201px;
+}
 
+
+.subscription-title {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.subscription-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.subscription-batn {
+    border-radius: 30px;
+        background: #bbf330;
+        font-weight: 500;
+        font-size: 13px;
+        line-height:1.5;
+        cursor: pointer;
+        border: none;
+}
+.subscription-form{
+    margin-bottom: 32px;
+   }
+
+.subscription-container{
+           display: flex;
+           align-items: center;
+           gap: 90px;
+}
+
+.footers {
+    padding-top: 201px;
+    padding-bottom: 0;
+}
+
+
+.footers-list {
+        display: flex;
+        gap: 28px;
+}
+
+/*.footers-item {
+        font-style: 14px;
+            display: block;
+            padding: 118px 0;
+}*/
+
+.footers-link {
+            font-style: 14px;
+                display: block;
+                padding: 118px 0;
+}
+
+.footers-form {}
+
+.footers-btn {}
+
+.footers-text {}
